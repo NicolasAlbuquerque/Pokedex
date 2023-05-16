@@ -16,10 +16,10 @@ botaoAlterarTema.addEventListener('click', () =>{
     const modoEscuroAtivo=corpo.classList.contains('tema__escuro')
     corpo.classList.toggle('tema__escuro')
     if(modoEscuroAtivo){
-        imagemBotaoTrocarDeTema.setAttribute('src', '/imagens/sun.png')
+        imagemBotaoTrocarDeTema.setAttribute('src', '/imagens/sunn-01.png')
         pokedex.setAttribute('src','/imagens/pokedexDia.png')
     }else{
-        imagemBotaoTrocarDeTema.setAttribute('src', '/imagens/moon.png')
+        imagemBotaoTrocarDeTema.setAttribute('src', '/imagens/moon-01-01.png')
         pokedex.setAttribute('src', '/imagens/pokedexnoite-01.png')
     }
 })

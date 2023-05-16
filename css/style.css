@@ -88,23 +88,32 @@ main{
 
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 80%;
     padding-top: 2%;
-    margin: 0 auto ;
+    text-align: center;
+    margin: 0 auto;
 }
 .button__tema{
     background:none;
 }
 
-.logo , .imagem__botao{
+.logo  {
     width: 8%;
     min-width: 30px;
     transition: 0.2S ease-in-out;
+    margin-left: 24%;
+}
+.imagem__botao{
+    width: 6%;
+    min-width: 30px;
+    transition: 0.2S ease-in-out;
+    margin-left: 30%;
 }
 #botao-alterar-tema{
     background: none;
     border: none;
+
 
 }
 header .logo:hover, header .imagem__botao:hover{
