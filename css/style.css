@@ -108,7 +108,8 @@ header{
     width: 6%;
     min-width: 30px;
     transition: 0.2S ease-in-out;
-    margin-left: 30%;
+    margin-left: 33%;
+
 }
 #botao-alterar-tema{
     background: none;
